@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <style type="text/css"></style>
+
+  <script src="loadDoc.js" async></script>
+</head>
+
+<body>
+  <h1> Test page for a explorer </h1>
+  <div class="dropdown">
+    <button class="dropbtn" id="dropdown">Dropdown</button>
+    <div class="dropdown-content">
+      <a id="1" onclick="change(1)">getblockhash</a>
+      <a id="2" onclick="change(2)">A different command</a>
+      <a id="3" onclick="change(3)">Some third command</a>
+    </div>
+  </div>
+  <input type="text" id="num" placeholder="Blocknumber..">
+  <button onclick="loadDoc()">Search</button>
+  </div>
+  <div id="demo"></div>
+</body>
+
+</html>
